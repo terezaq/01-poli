@@ -106,3 +106,75 @@ main {
 footer { display: flex;
     justify-content: center;
 }
+
+@media screen and (max-width: 767px) {
+    h1 {
+        font-size: 35px;
+        padding-left: 10px;
+    }
+    
+    nav {
+        flex-direction: column;
+    }
+
+    nav a {
+        padding-left: 25px;
+        padding-bottom: 15px;
+        font-size: 25px;
+    }
+
+    .container1 {
+        flex-direction: column;
+        align-items: start;
+        width: 1000px;
+    }
+    
+    .container {
+        max-width: 767px;
+        width: 767px;
+    }
+
+    .hlavnifoto {
+        height: 220px;
+    }
+
+    .horejsek {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .horejsek2 h2 {
+        padding-left: 20px;
+        padding-top: 8px;
+        padding-bottom: 5px;
+    }
+    
+    .horejsek2 p {
+        padding-left: 20px;
+        font-size: 18px;
+    }
+
+    .mid {
+        flex-direction: column;
+    }
+
+    .charakteristiky {
+        width: 250px;
+        height: 330px;
+        margin: 22px;
+        padding: 5px;
+    }
+    
+    .charakteristiky p {
+        padding: 5px;
+    }
+
+     .middle h2 {
+        padding-left: 15px;
+     }
+
+     .mid {
+        align-items: center;
+     }
+
+    }
